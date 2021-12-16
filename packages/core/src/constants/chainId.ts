@@ -3,6 +3,7 @@ import {
   Localhost,
   Hardhat,
   Avalanche,
+  Fuji,
   BSC,
   BSCTestnet,
   Fantom,
@@ -28,6 +29,7 @@ export const DEFAULT_SUPPORTED_CHAINS = [
   Localhost,
   Hardhat,
   Avalanche,
+  Fuji,
   Mainnet,
   Ropsten,
   Rinkeby,
@@ -68,6 +70,7 @@ export enum ChainId {
   Hardhat = 31337,
   Fantom = 250,
   Avalanche = 43114,
+  Fuji = 43113,
   Songbird = 19,
   MoonbaseAlpha = 1287,
 }
